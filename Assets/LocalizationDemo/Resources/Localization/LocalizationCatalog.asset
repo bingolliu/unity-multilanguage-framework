@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f278918ba35a405d9ab9a5b615c004ee, type: 3}
+  m_Name: LocalizationCatalog
+  m_EditorClassIdentifier: 
+  defaultLanguage: 1
+  strings:
+  - key: demo.language
+    cn: 当前语言
+    tc: 目前語言
+    vn: Ngôn ngữ hiện tại
+    en: Current language
+    kr: 현재 언어
+    th: ภาษาปัจจุบัน
+    ru: Текущий язык
+  - key: demo.description
+    cn: 多语言资源引用演示
+    tc: 多語言資源引用示範
+    vn: Minh họa tham chiếu tài nguyên đa ngôn ngữ
+    en: Localized asset reference demo
+    kr: 다국어 리소스 참조 데모
+    th: สาธิตการอ้างอิงทรัพยากรหลายภาษา
+    ru: Демонстрация ссылок на локализованные ресурсы
+  fonts:
+  - language: 1
+    uiFont: {fileID: 12800000, guid: b126ec8099040f04eafebcffbe79de4d, type: 3}
+    nguiFont: {fileID: 12800000, guid: b126ec8099040f04eafebcffbe79de4d, type: 3}
+  - language: 2
+    uiFont: {fileID: 12800000, guid: 968c46eb302255d48ab31aaad319a7b6, type: 3}
+    nguiFont: {fileID: 12800000, guid: 968c46eb302255d48ab31aaad319a7b6, type: 3}
+  - language: 3
+    uiFont: {fileID: 12800000, guid: 0a4f6adf0125c1347b6b34c2934a915b, type: 3}
+    nguiFont: {fileID: 12800000, guid: 0a4f6adf0125c1347b6b34c2934a915b, type: 3}
+  - language: 4
+    uiFont: {fileID: 12800000, guid: 3aceb8aaae3e1fb4ab841533d8d88d7d, type: 3}
+    nguiFont: {fileID: 12800000, guid: 3aceb8aaae3e1fb4ab841533d8d88d7d, type: 3}
+  - language: 5
+    uiFont: {fileID: 12800000, guid: 2a9dd7dbb0609844a8ae80b7bf39f06f, type: 3}
+    nguiFont: {fileID: 12800000, guid: 2a9dd7dbb0609844a8ae80b7bf39f06f, type: 3}
+  - language: 6
+    uiFont: {fileID: 12800000, guid: 82b5b1e9cd4179645b9ca2b8c6b06224, type: 3}
+    nguiFont: {fileID: 12800000, guid: 82b5b1e9cd4179645b9ca2b8c6b06224, type: 3}
+  - language: 7
+    uiFont: {fileID: 12800000, guid: d19dc49ff3cc9664f8751ddf63f37d93, type: 3}
+    nguiFont: {fileID: 12800000, guid: d19dc49ff3cc9664f8751ddf63f37d93, type: 3}
