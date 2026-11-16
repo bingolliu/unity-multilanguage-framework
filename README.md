@@ -187,3 +187,8 @@ LocalizationRuntime.SetLanguage(DemoLanguage.EN);
 - [LocalizationReferenceDemoWindow.cs](Assets/LocalizationDemo/Editor/LocalizationReferenceDemoWindow.cs)：语言切换窗口与场景内引用对齐。
 - [LanguageAssetPathResolver.cs](Assets/LocalizationDemo/Editor/LanguageAssetPathResolver.cs)：语言目录路径解析规则。
 - [LanguageAwareImportProcessor.cs](Assets/LocalizationDemo/Editor/LanguageAwareImportProcessor.cs)：导入后与切换时的资源引用刷新。
+## 仓库内容说明
+
+- Unity 版本：2022.3.62f2（见 `ProjectSettings/ProjectVersion.txt`），依赖商业插件 NGUI 2023.08.01（`Assets/Addons/NGUI`）。
+- 未纳入版本库：`Library/`、`Logs/`、`UserSettings/` 等 Unity 生成目录（见 `.gitignore`），以及 NGUI 自带的 `Assets/Addons/NGUI/Examples/` 示例资源（约 19MB，演示场景未引用）。需要 NGUI 示例场景时，请从原始插件包中取回该目录并重新导入。
+- 首次打开工程时，请使用对应的 Unity 2022.3.62f2 版本，等待资源导入完成后再运行 `Assets/LocalizationDemo/Scenes` 下的演示场景。
